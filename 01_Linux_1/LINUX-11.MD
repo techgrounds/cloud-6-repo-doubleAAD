@@ -8,6 +8,12 @@
 
 - Create a Bash script that writes the current date and time to a file in your home directory.
 
+        IF [ ! -e $HOME/date.txt ] ; then
+            date +"%A, %d %b, %Y %H:%M:%S" > $HOME/date.text
+        else
+            date +"%A, %d %b, %Y %H:%M:%S" >> $HOME/date.text
+        fi
+        
     ![SCREENSHOT](../00_includes/Linux11-01.png)
 
 - Register the script in your crontab so that it runs every minute.

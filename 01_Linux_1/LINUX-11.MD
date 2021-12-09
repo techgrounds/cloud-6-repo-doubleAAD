@@ -13,10 +13,13 @@
         else
             date +"%A, %d %b, %Y %H:%M:%S" >> $HOME/date.text
         fi
-        
+
     ![SCREENSHOT](../00_includes/Linux11-01.png)
 
 - Register the script in your crontab so that it runs every minute.
+
+        crontab -e
+        * * * * * $HOME/scripts/date.sh
 
     ![SCREENSHOT](../00_includes/Linux11-02.png)
     ![SCREENSHOT](../00_includes/Linux11-03.png)    

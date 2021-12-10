@@ -26,6 +26,7 @@
 ### Gebruikte bronnen
 
 - https://stackoverflow.com/questions/43221469/write-current-date-time-to-a-file-using-shell-script
+- https://www.youtube.com/watch?v=UlVqobmcPuM
 
 
 ### Ervaren problemen

@@ -31,11 +31,8 @@ Een Cronjob of crontab is een Unix commando dat een programma of script op een i
 
 - https://stackoverflow.com/questions/43221469/write-current-date-time-to-a-file-using-shell-script
 - https://www.youtube.com/watch?v=UlVqobmcPuM
-<<<<<<< HEAD
 - https://nl.wikipedia.org/wiki/Cronjob
 - https://ubuntu.com/tutorials/viewing-and-monitoring-log-files#2-log-files-locations
-=======
->>>>>>> 7f02ac1d2abbe4d779f0b16a7d05bf7f7e708061
 
 
 ### Ervaren problemen

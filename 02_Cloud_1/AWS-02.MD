@@ -110,6 +110,16 @@ Het idee van EC2 is, om on-premises te vervangen voor bepaalde bedrijven. stel j
 
 ![SCREENSHOT](../00_includes/Cloud02-4.png)
 
+
+
+- CapEx & OpEx:
+
+ * CapEx wordt gedefinieerd als bedrijfskosten die worden gemaakt om in de toekomst langetermijnvoordelen te creëren, zoals de aankoop van vaste activa zoals een gebouw of uitrusting.
+ * OpEx zijn uw bedrijfskosten, de uitgaven voor de dagelijkse gang van zaken, zoals diensten en verbruiksartikelen die opraken en naar verbruik worden betaald.
+
+ ![SCREENSHOT](../00_includes/capex-vs-opex.jpg)
+
+
 ### Gebruikte bronnen
 
 - https://aws.amazon.com/s3/storage-classes/

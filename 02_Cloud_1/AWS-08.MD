@@ -16,12 +16,15 @@ Het OSI-model is een goed hulpmiddel om te beschrijven waar een protocol ‘leef
 
 ![SCREENSHOT](../00_includes/Cloud08-1.png)
 
+Hypertext Transfer Protocol (HTTP) is een application layer protocol. HTTP gebruikt TCP/IP protocol om de website op je browser te kunnen zien.
+TCP/IP en OSI protocol bestaat uit lagen en beide protocolen zijn bijna het zelfde, TCP/IP en OSI protocol gebruiken beide 7 lagen om data te transferen. OSI maakt gebruik van lagen 5 en 6 maar TCP/IP maakt geen gebruik van lagen 5 en 6.
+
 - Begrijp wie bepaalt welke protocols wij gebruiken en wat je zelf moet doen om een nieuw protocol te introduceren.
 
 
 - Identificeer op zijn minst één protocol per OSI-laag.
 
-
+    
 
 - Facebook was recent een lange tijd niet beschikbaar. Ontdek waarom. Tip: BGP.
 

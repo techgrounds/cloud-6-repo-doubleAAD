@@ -132,4 +132,4 @@ Geen problemen, alle nodige informatie waren makkelijk te vinden.
 
 ### Resultaat
 
-Om de opdracht af te maken en te begrijpen wat ik aan het doen ben moet ik heel veel lezen. Ik heb geprobeerd om zo veel mogelijk in eigen woorden te schrijven wat de betekenis is van bepaalde termen en diensten en dat is hier boven te zien.
+Om de opdracht af te maken en te begrijpen wat ik aan het doen ben moet ik heel veel lezen. Ik heb geprobeerd om zo veel mogelijk in eigen woorden te typen wat de betekenis is van bepaalde termen en diensten en dat is hier boven te zien.

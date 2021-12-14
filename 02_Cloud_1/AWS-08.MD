@@ -21,13 +21,25 @@ TCP/IP en OSI protocol bestaat uit lagen en beide protocolen zijn bijna het zelf
 
 - Begrijp wie bepaalt welke protocols wij gebruiken en wat je zelf moet doen om een nieuw protocol te introduceren.
 
+Bedrijven en developers
+
 
 - Identificeer op zijn minst één protocol per OSI-laag.
 
+Presentation (Layer 6):
+
+Zorgen dat data gepresenteerd kan worden. Presentation lagen kan gebruik maken van verschillende protocolen zoals: AFP, LPP, NCP, NDR, XDR. Met dit protocolen maakt get mogelijk om filetypes te kunnen zien en lezen, zoals .PDF of .JPG.
+
+
+
+![SCREENSHOT](../00_includes/Cloud8-01.png)
     
 
 - Facebook was recent een lange tijd niet beschikbaar. Ontdek waarom. Tip: BGP.
 
+BGP: Border Gateway Protocol is het belangrijkste routeringsprotocol van het internet: het wordt gebruikt om verkeer tussen verschillende providers te routeren. BGP is te vinden in Laag 4 (Transport).
+
+Door een configuratiewijzigingen met betrekking tot BGP waardoor routers van internetproviders geen toegang hadden om de data te ontvangen.
 
 ### Gebruikte bronnen
 [Plaats hier de bronnen die je hebt gebruikt.]

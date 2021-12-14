@@ -48,21 +48,21 @@ Het is mogelijk om objecten te uploaden tot maximum 5TB. Het is ook mogelijk om 
 
 AWS heeft 6 verschillende S3's:
 
-- S3 Standard:
+S3 Standard:
 
  * Ontworpen voor veelgebruitke gegevens
  * Slaat gegevens op in minimaal drie Beschikbaarheidszones
 
  S3 Standard biedt hoge beschikbaarheid voor objecten. Dit maakt het een goede keuze voor een breed scala aan gebruiksscenario's, zoals websites, inhoudsdistributie en gegevensanalyse. S3 Standard heeft hogere kosten dan andere opslagklassen die bedoeld zijn voor weinig gebruikte gegevens en archiefopslag.
 
-- S3 Standard-Infrequent Acccess (S3 Standard-IA):
+S3 Standard-Infrequent Acccess (S3 Standard-IA):
 
  * Ideaal voor weinig gebruikte gegevens
  * Similar to S3 Standard but has a lower storage price and higher retrieval price
 
 S3 Standard-IA is ideaal voor gegevens die niet vaak worden gebruikt, maar vereist hoge beschikbaarheid wanneer dat nodig is. Zowel S3 Standard als S3 Standard-IA slaan gegevens op in minimaal drie beschikbaarheidszones. S3 Standard-IA biedt hetzelfde beschikbaarheidsniveau als S3 Standard, maar met een lagere opslagprijs en een hogere ophaalprijs.
 
-- S3 One Zone -Infrequent Access (S3 One Zone-IA):
+S3 One Zone -Infrequent Access (S3 One Zone-IA):
 
  * Slaat gegevens op in een enkele beschikbaarheidszone
  * Heeft een lagere opslagprijs dan S3 Standard-IA
@@ -72,14 +72,14 @@ S3 Standard-IA is ideaal voor gegevens die niet vaak worden gebruikt, maar verei
   * U wilt kosten besparen op opslag.
   * U kunt uw gegevens eenvoudig reproduceren in het geval van een storing in de beschikbaarheidszone.
 
-- S3 Intelligent-Tiering:
+S3 Intelligent-Tiering:
 
  * Ideaal voor gegevens met onbekende of veranderende toegangspatronen.
  * Requires a small monthly monitoring and automation fee per object.
 
  In de S3 Intelligent-Tiering-opslagklasse bewaakt Amazon S3 de toegangspatronen van objecten. Als je een object 30 opeenvolgende dagen niet hebt geopend, verplaatst Amazon S3 het automatisch naar de laag met zeldzame toegang, S3 Standard-IA. Als u een object in de laag met weinig toegang opent, verplaatst Amazon S3 het automatisch naar de laag met frequente toegang, S3 Standard.
 
-- S3 Glacier:
+S3 Glacier:
 
  * Voordelige opslag ontworpen voor gegevensarchivering
  * In staat om objecten binnen enkele minuten tot uren op te halen
@@ -93,7 +93,7 @@ S3 Glacier Deep Archive:
 
  Overweeg bij het kiezen tussen Amazon S3 Glacier en Amazon S3 Glacier Deep Archive hoe snel u gearchiveerde objecten moet ophalen. U kunt objecten die zijn opgeslagen in de S3 Glacier-opslagklasse binnen enkele minuten tot enkele uren ophalen. Ter vergelijking: u kunt objecten die zijn opgeslagen in de S3 Glacier Deep Archive-opslagklasse binnen 12 uur ophalen.
 
-- EC2:
+EC2:
 
 Amazon Elastic Compute Cloud (Amazon EC2).
 
@@ -112,10 +112,10 @@ Het idee van EC2 is, om on-premises te vervangen voor bepaalde bedrijven. stel j
 
 
 
-- CapEx & OpEx:
+CapEx & OpEx:
 
- * CapEx wordt gedefinieerd als bedrijfskosten die worden gemaakt om in de toekomst langetermijnvoordelen te creëren, zoals de aankoop van vaste activa zoals een gebouw of uitrusting.
- * OpEx zijn uw bedrijfskosten, de uitgaven voor de dagelijkse gang van zaken, zoals diensten en verbruiksartikelen die opraken en naar verbruik worden betaald.
+  * CapEx wordt gedefinieerd als bedrijfskosten die worden gemaakt om in de toekomst langetermijnvoordelen te creëren, zoals de aankoop van vaste activa zoals een gebouw of uitrusting.
+  * OpEx zijn uw bedrijfskosten, de uitgaven voor de dagelijkse gang van zaken, zoals diensten en verbruiksartikelen die opraken en naar verbruik worden betaald.
 
  ![SCREENSHOT](../00_includes/capex-vs-opex.jpg)
 

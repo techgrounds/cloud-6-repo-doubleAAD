@@ -42,10 +42,13 @@ BGP: Border Gateway Protocol is het belangrijkste routeringsprotocol van het int
 Door een configuratiewijzigingen met betrekking tot BGP waardoor routers van internetproviders geen toegang hadden om de data te ontvangen.
 
 ### Gebruikte bronnen
-[Plaats hier de bronnen die je hebt gebruikt.]
+
+- https://tweakers.net/nieuws/187706/facebook-downtime-kwam-door-configuratiefout-backbonerouters.html
 
 ### Ervaren problemen
-[Geef een korte beschrijving van de problemen waar je tegenaan bent gelopen met je gevonden oplossing.]
+
+Geen
 
 ### Resultaat
-[Omschrijf hoe je weet dat je opdracht gelukt is (gebruik screenshots waar nodig).]
+
+Ik heb geprobeerd om zo veel mogelijk in eigen woorden te typen wat de betekenis is van bepaalde termen en diensten en dat is hier boven te zien met fotos.

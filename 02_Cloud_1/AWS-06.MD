@@ -40,7 +40,7 @@ Spot instances are generally considered the cheapest, but their availability dep
 - Rules: Allow SSH, HTTP and HTTPS from anywhere
 - Key Pair: vockey (this can be downloaded from the sandbox lab environment)
 
-![SCREEENSHOT](00_includes/Cloud06-1.png)
+![SCREENSHOT](../00_includes/Cloud06-1.png)
 
 
 ## Opdracht 2
@@ -48,31 +48,31 @@ Spot instances are generally considered the cheapest, but their availability dep
 
 - Find the EC2 system logs. Verify that the HTTP package was installed.
 
-![SCREEENSHOT](00_includes/Cloud6-02.png)
+![SCREENSHOT](../00_includes/Cloud06-2.png)
 
 
 ## Opdracht 3
 
 - Stop your EC2 instance (don’t terminate it).
 
-![SCREEENSHOT](00_includes/Cloud06-3.png)
+![SCREENSHOT](../00_includes/Cloud06-3.png)
 
 - Change the instance type to a t2.small.
 
-![SCREEENSHOT](00_includes/Cloud06-4.png)
+![SCREEENSHOT](../00_includes/Cloud06-4.png)
 
 - Change the EBS volume size to 10 GiB.
 
-![SCREEENSHOT](00_includes/Cloud06-5.png)
+![SCREEENSHOT](../00_includes/Cloud06-5.png)
 
 - Start your EC2 instance.
 
-![SCREEENSHOT](00_includes/Cloud06-6.png)
+![SCREEENSHOT](../00_includes/Cloud06-6.png)
 
 
 ## Opdracht 4
 
-![SCREEENSHOT](00_includes/Cloud06-7.png)
+![SCREEENSHOT](../00_includes/Cloud06-7.png)
 
 ### Gebruikte bronnen
 

@@ -16,6 +16,7 @@ AWS biedt objectgebaseerde opslag in de vorm van S3. S3 maakt gebruik van bucket
 
 https://catje.s3.eu-central-1.amazonaws.com/kat.jpg
 
+![SCREENSHOT](../00_includes/Cloud05-1.png)
 
 ## Opdracht 2
 
@@ -28,6 +29,8 @@ https://catje.s3.eu-central-1.amazonaws.com/kat.jpg
 
 https://s3.eu-central-1.amazonaws.com/ahmed.com/Ahmed+portofolio/index.html
 
+
+![SCREENSHOT](../00_includes/Cloud05-2.png)
 
 ### Gebruikte bronnen
 

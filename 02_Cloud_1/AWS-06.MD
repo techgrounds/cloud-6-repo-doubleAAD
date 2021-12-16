@@ -45,20 +45,44 @@ Spot instances are generally considered the cheapest, but their availability dep
 
 ## Opdracht 2
 
-- Wait for the Status Checks to get out of the initialization stage. When you click the Status Checks tab, you should see that the System reachability and the Instance reachability checks have passed.
+
+- Find the EC2 system logs. Verify that the HTTP package was installed.
 
 ![SCREEENSHOT](00_includes/Cloud6-02.png)
 
 
-- Find the EC2 system logs. Verify that the HTTP package was installed.
+## Opdracht 3
+
+- Stop your EC2 instance (don’t terminate it).
+
+![SCREEENSHOT](00_includes/Cloud06-3.png)
+
+- Change the instance type to a t2.small.
+
+![SCREEENSHOT](00_includes/Cloud06-4.png)
+
+- Change the EBS volume size to 10 GiB.
+
+![SCREEENSHOT](00_includes/Cloud06-5.png)
+
+- Start your EC2 instance.
+
+![SCREEENSHOT](00_includes/Cloud06-6.png)
 
 
+## Opdracht 4
+
+![SCREEENSHOT](00_includes/Cloud06-7.png)
 
 ### Gebruikte bronnen
-[Plaats hier de bronnen die je hebt gebruikt.]
+
+- https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/LaunchingAndUsingInstances.html
+- https://aws.amazon.com/ec2/instance-types
 
 ### Ervaren problemen
-[Geef een korte beschrijving van de problemen waar je tegenaan bent gelopen met je gevonden oplossing.]
+
+In het begin heb ik de opdrachten niet goed gelezen. Inplaats van Systemlog te checken heb ik heel lang zitten proberen om verbinding te maken met mijn EC2 instance. Uiteindelijk de informatie van de systemlog was voldoende om de opdracht te maken.
 
 ### Resultaat
-[Omschrijf hoe je weet dat je opdracht gelukt is (gebruik screenshots waar nodig).]
+
+Deze opdracht was makkelijker dan ik dacht, helaas heb ik veel tijd verloren met andere dingen uitproberen terwijl het mogelijk was op een simpelere manier en resultaat is hier boven te zien.

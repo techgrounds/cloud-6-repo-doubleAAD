@@ -31,12 +31,12 @@ Bedrijven en developers
 
 
         Layer 7	    Application	    SMTP, HTTP, FTP, POP3, SNMP
-        Layer 6	    Presentation	MPEG, ASCH, SSL, TLS
+        Layer 6	    Presentation    MPEG, ASCH, SSL, TLS
         Layer 5	    Session	        NetBIOS, SAP
-        Layer 4	    Transport	    TCP, UDP
-        Layer 3	    Network	        IPV5, IPV6, ICMP, IPSEC, ARP, MPLS.
-        Layer 2	    Data Link	    RAPA, PPP, Frame Relay, ATM, Fiber Cable, etc.
-        Layer 1	    Physical	    RS232, 100BaseTX, ISDN, 11.
+        Layer 4	    Transport       TCP, UDP
+        Layer 3	    Network         IPV5, IPV6, ICMP, IPSEC, ARP, MPLS.
+        Layer 2	    Data Link       RAPA, PPP, Frame Relay, ATM, Fiber Cable, etc.
+        Layer 1	    Physical        RS232, 100BaseTX, ISDN, 11.
 
 
 ![SCREENSHOT](../00_includes/Cloud8-01.png)

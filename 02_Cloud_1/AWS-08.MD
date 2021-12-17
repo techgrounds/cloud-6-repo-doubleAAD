@@ -27,7 +27,7 @@ Bedrijven en developers
 - Identificeer op zijn minst één protocol per OSI-laag.
 
 
-![SCREENSHOT](../00_includes/Cloud8-3.png)
+![SCREENSHOT](../00_includes/Cloud08-3.png)
 
 
         Layer 7	Application	    SMTP, HTTP, FTP, POP3, SNMP

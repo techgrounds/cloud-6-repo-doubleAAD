@@ -16,3 +16,6 @@
         print('Good evening from Ahmed')
 
 ## Organization is Key!
+
+6 Dec 2021 i started my journey to study AWS Cloud Engineer.
+With this Repository you can follow my progress in the Cloud!!.

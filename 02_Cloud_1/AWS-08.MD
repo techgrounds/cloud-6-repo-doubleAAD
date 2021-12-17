@@ -26,10 +26,17 @@ Bedrijven en developers
 
 - Identificeer op zijn minst één protocol per OSI-laag.
 
-Presentation (Layer 6):
 
-Zorgen dat data gepresenteerd kan worden. Presentation lagen kan gebruik maken van verschillende protocolen zoals: AFP, LPP, NCP, NDR, XDR. Met dit protocolen maakt get mogelijk om filetypes te kunnen zien en lezen, zoals .PDF of .JPG.
+![SCREENSHOT](../00_includes/Cloud8-03.png)
 
+
+        Layer 7	Application	SMTP, HTTP, FTP, POP3, SNMP
+        Layer 6	Presentation	MPEG, ASCH, SSL, TLS
+        Layer 5	Session	NetBIOS, SAP
+        Layer 4	Transport	TCP, UDP
+        Layer 3	Network	IPV5, IPV6, ICMP, IPSEC, ARP, MPLS.
+        Layer 2	Data Link	RAPA, PPP, Frame Relay, ATM, Fiber Cable, etc.
+        Layer 1	Physical	RS232, 100BaseTX, ISDN, 11.
 
 
 ![SCREENSHOT](../00_includes/Cloud8-01.png)
@@ -44,6 +51,7 @@ Door een configuratiewijzigingen met betrekking tot BGP waardoor routers van int
 ### Gebruikte bronnen
 
 - https://tweakers.net/nieuws/187706/facebook-downtime-kwam-door-configuratiefout-backbonerouters.html
+- https://www.guru99.com/layers-of-osi-model.html
 
 ### Ervaren problemen
 

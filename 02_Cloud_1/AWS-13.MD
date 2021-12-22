@@ -27,7 +27,7 @@ Om dit alles leesbaar te maken voor mensen maken we gebruik van CIDR notation.
 
 ### Gebruikte bronnen
 
-- https://davidbombal.com/subnetting-concepts-calculator/
+- https://www.youtube.com/watch?v=ecCuyq-Wprc&t=383s
 - https://explore.skillbuilder.aws/learn/course/
 
 ### Ervaren problemen

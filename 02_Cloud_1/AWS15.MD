@@ -9,8 +9,6 @@ When you create a VPC, you must assign a CIDR block. Choose your CIDR block and 
 Elastic IPs are also available from the VPC menu. EIPs are public IP addresses that can be dynamically allocated to resources like EC2 instances or NAT gateways.
 
 
-## Key-terms
-[Schrijf hier een lijst met belangrijke termen met eventueel een korte uitleg.]
 
 ## Opdracht 1
 
@@ -23,9 +21,6 @@ Elastic IPs are also available from the VPC menu. EIPs are public IP addresses t
     - Name: Lab VPC
     - CIDR: 10.0.0.0/16
 
-![SCREENSHOT](../00_includes/Cloud15-1.png)
-
-
 - Requirements for the public subnet:
     - Name: Public subnet 1
     - CIDR: 10.0.0.0/24
@@ -37,25 +32,91 @@ Elastic IPs are also available from the VPC menu. EIPs are public IP addresses t
     - CIDR: 10.0.1.0/24
     - AZ: eu-central-1a
 
-![SCREENSHOT](../00_includes/Cloud15-2.png)
+    ![SCREENSHOT](../00_includes/Cloud15-2.png)
+
+
+
+## Opdracht 2
+
+- Create an additional public subnet with the following requirements:
+    - VPC: Lab VPC
+    - Name: Public Subnet 2
+    - AZ: eu-central-1b
+    - CIDR: 10.0.2.0/24
+- Create an additional private subnet with the following requirements:
+    - VPC: Lab VPC
+    - Name: Private Subnet 2
+    - AZ: eu-central-1b
+    - CIDR: 10.0.3.0/24
+
+    ![SCREENSHOT](../00_includes/Cloud15-1.png)
 
 
 - View the main route table for Lab VPC. It should have an entry for the NAT gateway. Rename this route table to Private Route Table.
+Explicitly associate the private route table with your two private subnets.
 
-- Explicitly associate the private route table with your two private subnets.
+![SCREENSHOT](../00_includes/Cloud15-4.png)
+
+- View the other route table for Lab VPC. It should have an entry for the internet gateway. Rename this route table to Public Route Table.
+- Explicitly associate the public route table to your two public subnets.
 
 ![SCREENSHOT](../00_includes/Cloud15-3.png)
 
 
 
+## Opdracht 3
+
+- Create a Security Group with the following requirements:
+
+    - Name: Web SG
+    - Description: Enable HTTP Access
+    - VPC: Lab VPC
+    - Inbound rule: allow HTTP access from anywhere
+    - Outbound rule: Allow all traffic
+
+![SCREENSHOT](../00_includes/Cloud15-5.png)
+
+
+## Opdracht 4
+
+- Launch an EC2 instance with the following requirements:
+    - AMI: Amazon Linux 2
+    - Type: t3.micro
+    - Subnet: Public subnet 2
+    - Auto-assign Public IP: Enable
+    - User data:
+    
+        #!/bin/bash
+        # Install Apache Web Server and PHP
+        yum install -y httpd mysql php
+        # Download Lab files
+        wget https://aws-tc-largeobjects.s3.amazonaws.com/CUR-TF-100-RESTRT-1/80-lab-vpc-web-server/lab-app.zip
+        unzip lab-app.zip -d /var/www/html/
+        # Turn on web server
+        chkconfig httpd on
+        service httpd start
+
+    - Tag:
+    - Key: Name
+    - Value: Web server
+    - Security Group: Web SG
+    - Key pair: no key pair
+
+- Connect to your server using the public IPv4 DNS name.
+
+
+![SCREENSHOT](../00_includes/Cloud15-6.png)
 
 
 
 ### Gebruikte bronnen
-[Plaats hier de bronnen die je hebt gebruikt.]
+
+- Academy Cloud Operations - Sandbox Environment
 
 ### Ervaren problemen
-[Geef een korte beschrijving van de problemen waar je tegenaan bent gelopen met je gevonden oplossing.]
+
+Geen
 
 ### Resultaat
-[Omschrijf hoe je weet dat je opdracht gelukt is (gebruik screenshots waar nodig).]
+
+Ik vond het een makkelijke opdracht. Moet nog na gekeken worden.

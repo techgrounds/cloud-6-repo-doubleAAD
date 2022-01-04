@@ -27,7 +27,6 @@ https://catje.s3.eu-central-1.amazonaws.com/kat.jpg
 - Enable static website hosting.
 - Share the bucket website endpoint with a peer. Make sure they are able to see the website.
 
-https://s3.eu-central-1.amazonaws.com/ahmed.com/Ahmed+portofolio/index.html
 
 
 ![SCREENSHOT](../00_includes/Cloud05-2.png)

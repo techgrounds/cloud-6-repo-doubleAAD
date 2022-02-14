@@ -177,3 +177,211 @@
         print('the number is ' + '20')
 
 
+# Fix 11
+                '''
+        The output should be:
+        IT LIVES!
+                '''
+
+        dev monster():
+	print('IT LIVES!')
+        monster()
+
+
+## The code should be
+
+        
+        def monster():
+	        print('IT LIVES!')
+        monster()
+
+# Fix 12
+                '''
+        The output should be:
+                4
+                16129
+                '''
+
+        def square(x):
+	        return x**2
+
+        nr = square(2)
+        print(nr)
+
+        big = square(foo)
+        print(big)
+
+        foo = 127
+
+
+## The code should be
+
+        def square(x):
+	        return x**2
+
+        nr = square(2)
+        print(nr)
+
+        foo = 127
+
+        big = square(foo)
+        print(big)
+
+# Fix 13
+                '''
+        The output should be:
+        Your random number is: <insert random number here>
+                '''
+        import random
+
+        random.randint(1,100)
+        print("Your random number is:")
+
+
+## The code should be
+
+        import random
+
+        a = random.randint(1,100)
+        print(f'{"Your random number is:"}{a}')
+        
+
+# Fix 14
+                '''
+        The output should be:
+                True
+                '''
+        def rtn(x):
+	        return(x)
+
+        foo = rtn(3)
+
+        if foo > rtn(4):
+	        print(True)
+        else:
+	        print(False)
+
+
+## The code should be
+
+        def rtn(x):
+	        return(x)
+
+        foo = rtn(7)
+
+        if foo > rtn(4):
+	        print(True)
+        else:
+	        print(False)
+
+
+
+# Fix 15
+                '''
+        The output should be:
+        a5|||5|||5|||a5|||5|||5|||a5|||5|||5|||
+                '''
+
+        foo = ''
+        for i in range(3):
+	        foo += 'a'
+	        for j in range(3):
+		foo += '5'
+	        for k in range(3):
+		foo += '|'
+
+        print(foo)
+
+
+## The code should be
+
+        foo = ''
+        for i in range(3):
+	        foo += 'a'
+	        for j in range(3):
+		        foo += '5'
+	                for k in range(3):
+		                foo += '|'
+
+        print(foo)
+
+
+
+
+# Fix 16
+                '''
+        The output should be:
+
+                '''
+        import random
+
+        # generate random int
+        goal = random.randint(1,100)
+
+        win = False
+        tries = 0
+
+        while win == False and tries < 7:
+	try:
+		# ask for input
+		inpt = int(input("Please input a number between 1 and 100: "))
+		# count attempt as a try
+		tries += 1
+
+		# check for match
+		if inpt == goal:
+			win = True
+			print("Congrats, you guessed the number!")
+			print("It took you", tries, "tries")
+		# give hints
+		elif inpt < goal:
+			print("The number should be higher")
+		else:
+			print("The number should be lower")
+
+	except:
+		print("Please type an integer")
+
+        # 
+        if win == False:
+	print("Game over! You took more than seven tries")
+
+
+## The code should be
+
+        import random
+
+        # generate random int
+        goal = random.randint(1,100)
+
+        win = False
+        tries = 0
+
+        while win == False and tries < 7:
+	try:
+		# ask for input
+		inpt = int(input("Please input a number between 1 and 100: "))
+		# count attempt as a try
+		tries += 1
+
+		# check for match
+		if inpt == goal:
+			win = True
+			print("Congrats, you guessed the number!")
+			print("It took you", tries, "tries")
+		# give hints
+		elif inpt < goal:
+			print("The number should be higher")
+		else:
+			print("The number should be lower")
+
+	except:
+		print("Please type an integer")
+
+        # 
+        if win == False:
+	print("Game over! You took more than seven tries")
+
+
+
+

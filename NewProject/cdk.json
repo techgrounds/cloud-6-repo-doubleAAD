@@ -1,0 +1,82 @@
+{
+  "app": "python app.py",
+  "watch": {
+    "include": [
+      "**"
+    ],
+    "exclude": [
+      "README.md",
+      "cdk*.json",
+      "requirements*.txt",
+      "source.bat",
+      "**/__init__.py",
+      "python/__pycache__",
+      "tests"
+    ]
+  },
+  "context": {
+    "@aws-cdk/aws-apigateway:usagePlanKeyOrderInsensitiveId": true,
+    "@aws-cdk/core:stackRelativeExports": true,
+    "@aws-cdk/aws-rds:lowercaseDbIdentifier": true,
+    "@aws-cdk/aws-lambda:recognizeVersionProps": true,
+    "@aws-cdk/aws-cloudfront:defaultSecurityPolicyTLSv1.2_2021": true,
+    "@aws-cdk-containers/ecs-service-extensions:enableDefaultLogDriver": true,
+    "@aws-cdk/aws-ec2:uniqueImdsv2TemplateName": true,
+    "@aws-cdk/core:target-partitions": [
+      "aws",
+      "aws-cn"
+    ],
+  
+      "myenvironment": {
+          "vpc_s": {
+                    "vpc1_id":"Web_VPC",
+                    "vpc1_max_az": 2,
+                    "vpc1_subnet_name": "Public",
+                    "vpc1_cidr_range":"10.10.10.0/24",
+                    "vpc2_id":"Mgmt_VPC",
+                    "vpc2_max_az": 2,
+                    "vpc2_subnet_name": "Public",
+                    "vpc2_cidr_range":"10.20.20.0/24",
+                    "peering_id": "VPCPeering",
+                    "peering_region": "eu-central-1",
+                    "vpc1_route_id" : "vpc1_route_id",
+                    "vpc2_route_id" : "vpc2_route_id"
+                    
+
+                  },
+
+           "SecurityGp": {
+                    "mgsg_id":"MgmtSG",
+                    "mgsg_name":"MgmtServerSG",
+                    "mgsg_peer": "77.248.14.193/32",
+                    "websg_id":"WebSG",
+                    "websg_name":"WebServerSG"
+                   
+                     },
+           "Servers" :{
+                    "web_instance_id":"webserver",
+                    "web_instance_type": "t2.micro",
+                    "web_volume_size" : 8,
+                    "mgmt_instance_id":"mgmtserver",
+                    "mgmt_instance_type": "t2.micro",
+                    "mgmt_volume_size" : 8
+
+           },
+           "BackupServers" :{
+             "hour1":"14",
+             "minute1" :"22",
+             "day1" : "*",
+             "month1": "*",
+             "year1" : "*",
+             "duration1":7,
+             "hour2":"13",
+             "minute2" :"30",
+             "day2" : "*",
+             "month2": "*",
+             "year2" : "*",
+             "duration2":7
+           }
+            
+        }
+  }
+}

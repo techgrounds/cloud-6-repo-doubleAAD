@@ -38,7 +38,7 @@
                     "vpc2_subnet_name": "Public",
                     "vpc2_cidr_range":"10.20.20.0/24",
                     "peering_id": "VPCPeering",
-                    "peering_region": "eu-central-1",
+                    "peering_region": "us-east-1",
                     "vpc1_route_id" : "vpc1_route_id",
                     "vpc2_route_id" : "vpc2_route_id"
                     

@@ -2,7 +2,7 @@ from itertools import count
 from msilib.schema import Environment
 from multiprocessing import Event
 from operator import countOf
-# from cdk_iam_floyd import Events, Iam
+from cdk_iam_floyd import Events, Iam
 from constructs import Construct
 import boto3
 import socket
@@ -242,7 +242,7 @@ class NewProjectStack(Stack):
         path = instance1.user_data.add_s3_download_command(
                      bucket=assets.bucket,
                      bucket_key=assets.s3_object_key,
-                     region="eu-central-1",
+                     region="us-east-1",
         )
 
         instance1.user_data.add_execute_file_command(

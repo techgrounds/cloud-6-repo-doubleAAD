@@ -48,34 +48,12 @@
            "SecurityGp": {
                     "mgsg_id":"MgmtSG",
                     "mgsg_name":"MgmtServerSG",
-                    "mgsg_peer": "77.248.14.193/32",
-                    "websg_id":"WebSG",
-                    "websg_name":"WebServerSG"
+                    "mgsg_peer": "77.250.37.33/32",
+                    "elbsg_id":"WebSG",
+                    "elbsg_name":"WebServerSG"
                    
-                     },
-           "Servers" :{
-                    "web_instance_id":"webserver",
-                    "web_instance_type": "t2.micro",
-                    "web_volume_size" : 8,
-                    "mgmt_instance_id":"mgmtserver",
-                    "mgmt_instance_type": "t2.micro",
-                    "mgmt_volume_size" : 8
-
-           },
-           "BackupServers" :{
-             "hour1":"14",
-             "minute1" :"22",
-             "day1" : "*",
-             "month1": "*",
-             "year1" : "*",
-             "duration1":7,
-             "hour2":"13",
-             "minute2" :"30",
-             "day2" : "*",
-             "month2": "*",
-             "year2" : "*",
-             "duration2":7
-           }
+                     } 
+           
             
         }
   }

@@ -231,7 +231,7 @@ class NewProjectStack(Stack):
                                  ec2.Port.tcp(80),
                                     "http traffic")
         ELBSG.add_ingress_rule(ec2.Peer.any_ipv4(),
-                                 ec2.Port.tcp(443),
+                                 ec2.Port.tcp(80),
                                     "https traffic")
       #  ELBSG.add_ingress_rule(ec2.Peer.security_group_id(MgmtSG.security_group_id), ec2.Port.tcp(22),  "ssh")
                                     

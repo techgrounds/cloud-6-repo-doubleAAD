@@ -48,7 +48,7 @@
            "SecurityGp": {
                     "mgsg_id":"MgmtSG",
                     "mgsg_name":"MgmtServerSG",
-                    "mgsg_peer": "77.250.37.33/32",
+                    "mgsg_peer": "IP-ADRESS/32",
                     "elbsg_id":"WebSG",
                     "elbsg_name":"WebServerSG"
                    

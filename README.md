@@ -1,1 +1,1 @@
-My journy in Cloud!
+Infrastructure as Code (IaC) project in AWS.
